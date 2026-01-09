@@ -2,7 +2,6 @@
   import { Analytics } from '@vercel/analytics/react';
 
   export default function App() {
-    // --- KEEPING YOUR LOGIC EXACTLY AS IS ---
     function generatePassword(len, num, char) {
       let passwordChars = [];
       let allChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
