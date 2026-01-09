@@ -1,4 +1,5 @@
   import { useState, useRef } from 'react';
+  import { Analytics } from '@vercel/analytics/react';
 
   export default function App() {
     // --- KEEPING YOUR LOGIC EXACTLY AS IS ---
@@ -197,6 +198,7 @@
             Copied to clipboard
           </div>
         )}
+        <Analytics />
       </div>
     );
   }
