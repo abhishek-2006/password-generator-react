@@ -166,17 +166,28 @@
                 ))}
               </div>
             </div>
-
-            <footer className="mt-8 flex justify-center pt-2">
+            <footer className="mt-8 flex flex-col items-center gap-4 pt-2">
               <button 
                 onClick={() => setPassword(generatePassword(length, numberAllowed, charAllowed))}
-                className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-hero-dark/30 hover:text-hero-blue transition-all"
+                className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-hero-blue transition-all"
               >
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                 </svg>
                 Regenerate Password
               </button>
+
+              <p className="text-center text-[10px] font-bold uppercase tracking-widest text-hero-dark/30">
+                Built by{" "}
+                <a
+                  href="https://github.com/abhishek-2006"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors text-hero-blue"
+                >
+                  Abhishek Shah
+                </a>
+              </p>
             </footer>
           </div>
         </div>
