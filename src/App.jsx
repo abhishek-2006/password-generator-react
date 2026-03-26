@@ -155,7 +155,7 @@
                     className={`flex items-center justify-between rounded-2xl px-6 py-4 font-bold transition-all active:scale-[0.98] border ${
                       item.state 
                       ? 'border-hero-blue/20 bg-hero-blue/5 text-hero-blue shadow-sm' 
-                      : 'border-transparent bg-hero-dark/[0.03] text-hero-dark/40 hover:bg-hero-dark/[0.05]'
+                      : 'border-transparent bg-hero-dark/3 text-hero-dark/40 hover:bg-hero-dark/5'
                     }`}
                   >
                     <span className="text-sm">{item.label}</span>
